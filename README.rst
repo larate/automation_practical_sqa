@@ -40,7 +40,7 @@ Make sure you have access `GitHub Account <https://github.com/larate/practical-s
 ----------------
 Ruby
 ----------------
-Make sure you have `Ruby <https://www.ruby-lang.org/en/>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
+Make sure you have `Ruby <https://github.com/larate/automation_practical_sqa>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
 ``ruby -v``
 
