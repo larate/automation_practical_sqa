@@ -33,9 +33,9 @@ Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For c
 ----------------
 GitHub
 ----------------
-Make sure you have access `GitHub Account <https://github.com/larate/practical-sqa>`_:
+Make sure you have access `GitHub Account <https://github.com/larate/automation_practical_sqa.git`_:
 
-``git clone https://github.com/larate/practical-sqa``
+``git clone https://github.com/larate/automation_practical_sqa.git``
 
 ----------------
 Ruby
