@@ -8,12 +8,12 @@ Given(/^I open a browser$/) do
 
 end
 
-When(/^I login with "([^"]*)" username and "([^"]*)" passwor$/) do |username, password|
+When(/^I login with "([^"]*)" username and "([^"]*)" password$/) do |username, password|
   @browser.find_element(xpath: "//input[@id='user_login']").send_keys username
   @browser.find_element(xpath: "//input[@id='user_pass']").send_keys password
   @browser.find_element(xpath: "//input[@id='wp-submit']").click
 end
 
-When(/^I verify the Practical SQA page loaded$/) do
+When(/^I verify Practical SQA page loaded$/) do
   @browser.find_element(xpath: "//h1[@class = 'site-title']")
 end
