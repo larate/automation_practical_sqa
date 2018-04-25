@@ -1,5 +1,6 @@
-# driver_path =  File.join(File.dirname(__FILE__), "..", "..", "drivers","chromedriver.exe")
  driver_path = "C:/Users/Teacher/Desktop/repos/practical-sqa/drivers/chromedriver.exe"
+# driver_path =  File.join(File.dirname(__FILE__), "..", "..", "drivers","chromedriver.exe")
+
 
 Given(/^I open a browser$/) do
   @browser = Selenium::WebDriver.for :chrome, driver_path: driver_path
